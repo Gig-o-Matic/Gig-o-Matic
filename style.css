@@ -1,0 +1,172 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#topbar { padding: 0px; }
+
+#xcontent, #xcontent td, #xcontent th {
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 10pt;
+ color: black;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+#content {
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 10pt;
+ margin-left: 20px;
+}
+
+#content pre {
+ font-family: Verdana, Arial, sans-serif;
+ font-style: italic;
+ font-size: 10pt;
+}
+
+p {
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 10pt;
+ color: black;
+}
+
+td {
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 10pt;
+ color: black;
+}
+
+h1 { font-family: Arial, Helvetica, sans-serif;
+ color: #235D85;
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 18pt; font-weight: bold; line-height: 21pt
+}
+
+a:link {
+ color:#000000;
+}
+
+a:visited {
+ color:#000000;
+}
+a:hover {
+ color:#000000;
+}
+a:active{
+ color:#000000;
+}
+
+FORM { margin-bottom: 0; }
+
+.confirmedspan {
+  font-weight:bold;
+  color:#A03339;
+}
+
+td.contentcell {
+  text-align:center;
+}
+
+td.gigcell {
+  vertical-align: top;
+  text-align:center;
+  padding: 0px 4px;
+  width: 150;
+}
+
+td.personcell {
+  color:#235D85;
+  text-align:right;
+}
+
+td.instrumentcell {
+  color:#235D85;
+  text-align:left;
+}
+
+td.titlecell{
+  color:F7F7D6;
+  font-weight:bold;
+  background-color:#A03339;
+  vertical-align:middle
+}
+
+img.middle {
+  vertical-align:middle;
+}
+
+td.bordercell{
+  background-color:#A03339;
+}
+
+td.borderstripe {
+  background-image: url("images/borderstripe.png");
+  background-repeat: repeat-y;
+}
+td.leftborderstripe {
+  background-image: url("images/borderstripe.png");
+  background-repeat: repeat-y;
+}
+td.rightborderstripe {
+  background-image: url("images/borderstripe.png");
+  background-repeat: repeat-y;
+  background-position: right;
+}
+td.bottomborderstripe {
+  background-image: url("images/borderstripe.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+td.eventinstrumentcell {
+  color:#235D85;
+  text-align:left;
+  width:100;
+}
+
+td.eventpersoncell {
+  text-align:right;
+}
+
+td.eventanswercell {
+  text-align:center;
+  width:100;
+  height:20;
+}
+
+td.personanswercell {
+  text-align:center;
+  width:100;
+  height:20;
+}
+
+td.personcommentcell {
+}
+
+td.personspacer {
+  width:20;
+}
+
+td.noeventscell {
+  text-align:center;
+  height:100;
+  width:250;
+}
+
+td.eventheadercell {
+  height:20;
+  width:100;
+  vertical-align:top;
+}
+
+td.eventinfocell {
+  height:20;
+  width:100;
+  vertical-align:top;
+}
+
+td.oldgigdatecell {
+	height:20;
+	width:100;
+}
